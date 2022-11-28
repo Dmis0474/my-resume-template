@@ -1,7 +1,7 @@
 body {
   font-family: "Ubuntu", sans-serif;
-  margin: 30px 20px 10px 20px;
-  max-width: 800px;
+  margin: 15px 20px 10px 20px;
+  max-width: 900px;
 }
 
 header {
@@ -35,12 +35,16 @@ p {
   flex-direction: column;
   align-items: flex-end;
   gap: 12px;
+  min-width: 250px;
+  
 }
 
 .contact__item {
   padding-right: 30px;
   background-repeat: no-repeat;
   background-position: right;
+  font-size: 14px;
+ 
 }
 
 .contact__item:nth-child(1) {
@@ -66,6 +70,7 @@ p {
   border-bottom: 1px solid black;
   padding: 3px 0;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .skills__items {
@@ -83,9 +88,7 @@ p {
   border-radius: 3px;
 }
 
-.work-experience__header {
-  margin-bottom: 5px;
-}
+
 
 .work-experience__date {
   opacity: 0.7;
