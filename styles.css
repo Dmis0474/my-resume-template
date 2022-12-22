@@ -16,12 +16,23 @@ p {
   margin: 5px 0;
 }
 
+.photo-wrapper {
+  display: block;
+  margin-top: 17px;
+  background-image: url("./img/20210124_160719.jpg");
+  min-width: 150px;
+  height: 160px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .header__name {
   margin: 10px 0;
 }
 
 .header__info {
-  max-width: 450px;
+  max-width: 500px;
+  display: flex;
 }
 
 .header__position {
